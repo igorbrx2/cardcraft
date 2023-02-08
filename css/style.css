@@ -14,6 +14,8 @@ a {
     text-decoration: none;
 }
 
+/* Estilização do Header */
+
 .header img {
     max-width: 250px;
 }
@@ -86,3 +88,45 @@ a {
 
 }
 
+/* Estilização da introdução */
+
+.introducao img {
+    max-width: 600px;
+}
+
+.introducao {
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 40px;
+}
+
+.introducao-conteudo {
+align-items: center;
+}
+
+.introducao-bg {
+    background-color: #000000;
+}
+
+.introducao-conteudo h1 {
+    font-size: 2.5rem;
+    line-height: 1.125;
+    margin-left: 25px;
+}
+
+.introducao-conteudo p {
+ margin-left: 25px;
+ font-size: 1.25rem;
+ margin-bottom: 45px;
+}
+
+.introducao-conteudo a {
+    margin-left: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff2626;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
