@@ -1,0 +1,14 @@
+.botao {
+    font-family: 'Poppins';
+    font-weight: 600;
+    padding: 16px 32px;
+    background: #ff1717;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.botao:hover {
+    background: #cf1515;
+}
