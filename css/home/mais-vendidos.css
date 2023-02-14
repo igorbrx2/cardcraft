@@ -1,0 +1,55 @@
+.mais-vendidos-lista {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.mais-vendidos-lista h2 {
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mais-vendidos-lista ul {
+    display: flex;
+    gap: 40px;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+}
+
+.mais-vendidos-lista li {
+    flex: 1;
+    min-width: 280px;
+}
+
+.mais-vendidos-lista img {
+    border-radius: 5px;
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 15px;
+}
+
+.mais-vendidos-lista img:hover {
+opacity: 0.6;
+}
+
+@media (max-width: 800px) {
+
+    .mais-vendidos-lista ul {
+        padding: 0 20px 20px 20px;
+    }
+    
+    .mais-vendidos-lista img {
+        width: 300px;
+        height: 300px;
+    }
+}
+

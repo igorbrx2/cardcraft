@@ -11,7 +11,7 @@ ul {
     list-style: none;
 }
 
-h1, p {
+h1, p, h2, h3 {
     margin: 0px;
 }
 
