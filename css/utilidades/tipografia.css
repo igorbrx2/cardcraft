@@ -5,6 +5,13 @@
     line-height: 1.125;
 }
 
+.texto-grande2 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.125;
+}
+
 .texto-medio {
     font-family: 'Roboto';
     font-weight: 400;
