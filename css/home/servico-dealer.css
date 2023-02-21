@@ -1,6 +1,6 @@
 .servico-dealer-bg {
     background-color: #000000;
-    box-shadow: inset 0 80px #ffffff, inset 0 -80px #ffffff
+    box-shadow: inset 0 80px var(--branco-puro), inset 0 -80px var(--cinza-escuro);
 
 }
 
@@ -33,43 +33,119 @@
     height: 700px;
 }
 
-.dealer-planos-container {
+.pacotes-dealer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 80px;
-    gap: 100px;
-}
-
-.contrato-dealer-estilo {
-    display: grid;
-    place-content: center;
-    place-items: start;
+    gap: 82px;
     margin-top: 60px;
-    gap: 40px;
-    background-color: #0a0000;
-    color: #ffffff;
-    padding: 30px;
-    border-radius: 5px;
-    max-height: 370px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
 
-.contrato-dealer-estilo2 {
+.pacotes-dealer h1 {
+    grid-column: 1/-1;
+}
+
+/* Pacote Básico */
+
+.pacotes-bg {
+    background-color: var(--cinza-escuro);
+}
+
+.pacotes-bg h1 {
+    color: var(--branco-puro);
+}
+
+.pacote {
     display: grid;
-    place-content: start;
-    place-items: start;
-    gap: 20px;
-    background-color: #ffdc41;
-    color: #000;
+    justify-items: start;
+    align-items: start;
+    background: #000000;
+    color: #ffffff;
     padding: 30px;
     border-radius: 5px;
-    width: 400px;
-    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.contrato-dealer-estilo2 a {
-    color: #ffffff;
+
+.pacote p {
+    margin-top: -10px;
 }
 
+.pacote ul {
+list-style: none;
+}
+
+.pacote li {
+    position: relative;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.pacote li::before {
+    content: "▪";
+    color: var(--vermelho-padrao);
+    display: inline-block;
+    font-size: 2rem;
+    position: absolute;
+    left: -10px;
+    top: -1px;
+}
+
+.pacote a {
+    background: var(--cinza-principal);
+    color: #000000;
+}
+
+.pacote a:hover {
+    background: var(--cinza-claro);
+}
+
+/* Pacote Ouro */
+
+.pacote2 {
+    display: grid;
+    justify-items: start;
+    background: var(--amarelo-dourado);
+    color: var(--preto-absoluto);
+    padding: 30px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.pacote2 ul {
+    list-style: none;
+    margin-top: 20px;
+    }
+    
+    .pacote2 li {
+        position: relative;
+        padding: 10px;
+        font-weight: bold;
+    }
+    
+    .pacote2 li::before {
+        content: "▪";
+        color: var(--preto-absoluto);
+        display: inline-block;
+        font-size: 2rem;
+        position: absolute;
+        left: -10px;
+        top: -1px;
+    }
+    
+    .pacote2 a {
+        margin-top: 20px;
+        background: var(--preto-absoluto);
+        color: var(--branco-puro);
+    }
+    
+    .pacote2 a:hover {
+        background: var(--preto2);
+    }
 
 @media (max-width: 900px) {
 

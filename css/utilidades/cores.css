@@ -9,3 +9,14 @@
 .cor-vermelho-botao {
     color: #ff1717;
 }
+
+:root {
+--vermelho-padrao: #ff1717;
+--cinza-principal: #b2b2b2;
+--cinza-claro: #d4d4d4;
+--cinza-escuro: #3f3f3f;
+--branco-puro: #ffffff;
+--preto-absoluto: #000000;
+--preto2: #1f1f1f;
+--amarelo-dourado: #ffd000;
+}

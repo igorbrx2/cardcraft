@@ -16,6 +16,7 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1rem;
+    max-width: max-content;
 }
 
 .botao:hover {
