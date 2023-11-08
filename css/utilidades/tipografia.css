@@ -32,3 +32,9 @@
     font-size: 1.2rem;
     line-height: 1.5;
 }
+
+.texto-descricao {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(34, 34, 34);
+}
