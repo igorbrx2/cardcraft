@@ -20,6 +20,17 @@
 
 /* Contato */
 
-@import "./home/contato.css"
+@import "./home/contato.css";
 
+/* FOOTER */
 
+#footer {
+    background-color: var(--cinza-escuro);
+    padding: 10px 0;
+}
+
+#footer p {
+    font-size: .9rem;
+    color: white;
+    text-align: center;
+}
