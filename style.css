@@ -47,16 +47,20 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    position: relative;
+    height: 100vh;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .introTexto {
     display: flex;
     flex-direction: column;
+    align-self: center;
+    margin-top: 85px;
     gap: 30px; 
     width: 450px;
     max-width: 90vw;
-    margin: 10% 15% 5%;
 }
 
 .introTexto h1 {
@@ -91,11 +95,8 @@ body {
 }
 
 #intro img {
-    height: calc(100vh - 15%);
     width: auto;
-    position: absolute;
-    right: 15%;
-    top: 10%;
+    height: 100vh;
 }
 
 /* PRODUTOS */

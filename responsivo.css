@@ -1,0 +1,10 @@
+@media (max-width: 1200px) {
+
+
+    #carteador img {
+        height: 500px;
+        position: absolute;
+        right: 15%;
+        top: -8%;
+    }
+}
